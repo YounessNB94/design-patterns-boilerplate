@@ -6,3 +6,11 @@ export type {
   RegisterAdherentDependencies,
   RegisterAdherentResult,
 } from "./registerAdherent";
+
+export { borrowBook } from "./borrowBook";
+
+export type {
+  BorrowBookInput,
+  BorrowBookDependencies,
+  BorrowBookResult,
+} from "./borrowBook";
